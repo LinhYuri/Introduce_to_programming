@@ -1,9 +1,9 @@
-#include<bits/stdc++.h>
+#include<iostream>
 using namespace std;
 
 int main(){
     int n; cin >> n;
-    int a[n];
+    int a[100];
     for (int i = 0; i < n; i++){
         cin >> a[i];
     }
@@ -13,7 +13,7 @@ int main(){
         int sum = 0;
         for (int j=i; j < n; j++){
             sum += a[j];
-            if (k*(j-i+1) <= sum and sz < j-i+1){
+            if (k*(j-i+1) <= sum && sz < j-i+1){
                 sz = j-i+1;
                 l = i;
             }

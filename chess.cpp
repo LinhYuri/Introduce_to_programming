@@ -1,6 +1,7 @@
 // Bài toán n quân hậu: nhập vào kích thước bàn cờ, in ra các khả năng của kết quả
 
-#include<bits/stdc++.h>
+#include<iostream>
+#include<set>
 using namespace std;
 
 int n;
